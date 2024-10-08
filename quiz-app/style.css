@@ -1,0 +1,73 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightblue;
+    overflow: hidden;
+}
+.option span{
+    margin-left: 10px;
+}
+
+.container{
+    width:80%;
+    height:auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: auto;
+    min-height: 50%;
+}
+.container h5{
+    /* text-align: center; */
+    padding: 10px;
+    font-size: 30px;
+}
+.options{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.option{
+    margin-top:10px;
+    font-size: 24px;
+}
+input[type=radio] {
+    /* border: 0px; */
+    width: 10%;
+    height: 2em;
+}
+#btn,#backtohome{
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(60, 60, 188);
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#backtohome{
+    padding: 20px;
+}
+.submitSection{
+    text-align: center;
+    margin:auto;
+
+}
+.result{
+    text-align: center;
+}
+#pTag{
+    color: red;
+    font-weight: 400;
+    font-size: 24px;
+}

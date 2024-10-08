@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="myForm">
+            <h5 id="question">What is your favorite Hero?</h5>
+            <div class="options">
+                <p id="pTag"></p>
+                <div class="option">
+                    <input type="radio" name="opt" value="A" class="optionsAll" /><span id="option_a">Option-A</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="opt" value="B" class="optionsAll" /><span id="option_b">Option-b</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="opt" value="C" class="optionsAll" /><span id="option_c">Option-c</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="opt" value="D" class="optionsAll" /><span id="option_d">Option-d</span>
+                </div>
+            </div>
+            <div class="submitSection">
+                <button type="submit" class="submit" id="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
