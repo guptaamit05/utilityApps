@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <span class="title">
+                How satisfied are you with our customer support performance?
+            </span>
+            <div class="smily">
+                <span class="icons">
+                    &#128532;
+                    <span class="icons-title">Unhappy</span>
+                </span>
+                <span class="icons">&#128528;
+                    <span class="icons-title">Good</span>
+                </span>
+                <span class="icons">&#128522;
+                    <span class="icons-title">Average</span>
+                </span>
+                <span class="icons">&#128512;
+                    <span class="icons-title">Better</span>
+                </span>
+                <span class="icons">&#128515;
+                    <span class="icons-title">Best</span>
+                </span>
+            </div>
+
+            <button class="btn" disabled="disabled">Send Review</button>
+        </div>
+        <div class="box-1 feedbackOutcome hide">
+            <span class="heart">❤️</span>
+            <span class="fbd">Thank You</span>
+            <span class="fbd">Feedback: <spna class="feedback-result"></spna></span>
+            <p class="fbd">We will use your feedback to improve our customer support.</p>
+            <button class="btn2" onclick="window.location.reload()">Back</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

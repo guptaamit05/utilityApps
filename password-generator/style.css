@@ -1,0 +1,79 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(58, 58, 146);
+    overflow: hidden;
+    position: relative;
+}
+
+.box{
+    max-width: 600px;
+    height: 370px;
+    background-color: rgb(18, 18, 59);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    line-height: 0.5;
+}
+
+.copy-section{
+    position:relative;
+}
+.btn-input{
+    width: 95%;
+    height: 40px;
+    margin: 0 8px;
+    background-color: rgb(8, 8, 15);
+    border: none;
+    color: #fff;
+}
+
+.btn-input{
+    outline:none;
+}
+
+.fa-copy{
+    position:absolute;
+    right: 20px;
+    bottom: 10px;
+    color:#fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.input{
+    width: 60px;
+    height: 20px;
+}
+.num{
+    width: 40px;
+    margin-right: 12px;
+}   
+
+.btn-password{
+    padding: 10px;
+    margin: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    background-color:rgb(54 54 145);
+}
+.textEl{
+    text-align: center;
+}

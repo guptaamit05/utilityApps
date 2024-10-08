@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Random Password Generator App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="input-section">
+            <h3 class="center">Password Generator</h3>
+
+            <div class="textEl">Starting...</div>
+            <div class="copy-section">
+                <input class="btn-input center" disabled style='font-size:24px'></input>
+                <i class='fas fa-copy' title="Copy password"></i>
+            </div>
+        </div>
+        <div class="text-section">
+            <p class="text">Password Length</p>
+            <input class="input num " type="number" value="5" max="120" min="5" />
+        </div>
+        <div class="text-section">
+            <p class="text">Include uppercase letters</p>
+            <input class="input upper pwd-cls" tp="lower" checked type="checkbox" max="25" min="5" />
+        </div>
+        <div class="text-section">
+            <p class="text">Include lowercase letters</p>
+            <input class="input lower pwd-cls" tp="upper"  checked type="checkbox" max="25" min="5" />
+        </div>
+        <div class="text-section">
+            <p class="text">Include numbers</p>
+            <input class="input number pwd-cls" tp="number"  checked type="checkbox" max="25" min="5" />
+        </div>
+        <div class="text-section">
+            <p class="text">Include symbols</p>
+            <input class="input symbols pwd-cls" tp="symbols"  checked type="checkbox" max="25" min="5" />
+        </div>
+        <button class="btn-password">Generate Password</button>
+    </div>
+</body>
+<script src="./config.js"></script>
+<script src="./script.js"></script>
+
+</html>

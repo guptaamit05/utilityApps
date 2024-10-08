@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.subdiv{
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:0 18px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.panel{
+    /* opacity: 0; */
+    height: 0;  
+    display: none; 
+}
+
+.panel.active{
+    width: 100%;
+    padding: 0 18px;
+    background-color: #f1f1f1;
+    display: block;
+    height: 100px;
+}
+
